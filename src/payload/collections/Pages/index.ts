@@ -42,6 +42,12 @@ export const Pages: CollectionConfig = {
       required: true,
     },
     {
+      name: 'metaTitle',
+      type: 'text',
+      label: 'Meta Title',
+      required: true,
+    },
+    {
       name: 'publishedOn',
       type: 'date',
       admin: {
